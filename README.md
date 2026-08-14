@@ -101,6 +101,8 @@ CMD [ "npm", "run", "--debug" ]
 ```
 Dockerfile
 
+You see how `Dockerfile` makes use of the arguments `ARTIFACTORY_NPM_REGISTRY` and `ARTIFACTORY_TOKEN` passed in from `compose.yaml`.
+
 ## 6. Run docker compose
 
 With all above files in place, you can build and run the Docker image as follows:
