@@ -37,7 +37,7 @@ ARTIFACTORY_TOKEN="cmVmdGt######################################################
 Create a `.npmrc` file within the same directory where `Dockerfile` and `compose.yaml` reside.
 
 ```
-@someregistry:registry=https://some-department.some-company.com/artifactory/api/npm/mirror-npmjs/
+@some-registry:registry=https://some-department.some-company.com/artifactory/api/npm/mirror-npmjs/
 //some-department.some-company.com/artifactory/api/npm/mirror-npmjs/:always-auth=true
 //some-department.some-company.com/artifactory/api/npm/mirror-npmjs/:_authToken=${ARTIFACTORY_TOKEN}
 ```
