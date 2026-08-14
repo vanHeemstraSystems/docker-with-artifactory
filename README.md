@@ -6,6 +6,8 @@ Use [Composerize](https://www.composerize.com) to convert a Docker command to a 
 
 For Docker to be able to work with NPM packages that are hosted through Artifactory at a corporate level (i.e. within a company like "some-company") follow these instructions:
 
+**Note**: depending on the settings in Artifactory the mirror to npmjs.org can be different from `mirror-npmjs`, check with your Artifactory instance.
+
 ## 1. Write a sample.env file and a copy as .env
 
 Create a `sample.env` file within the same directory where `Dockerfile` and `compose.yaml` reside.
